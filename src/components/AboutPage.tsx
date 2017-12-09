@@ -4,7 +4,7 @@ import Page from './Page';
 const AboutPage = () => {
     return (
         <div>
-            <Page title="About" />
+            <Page title="Apie" />
         </div>
     );
 };

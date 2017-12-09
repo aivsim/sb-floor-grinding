@@ -21,13 +21,13 @@ class Page extends React.Component<Props> {
                     This is the {title} page.
                 </p>
                 <p>
-                    <Link to="/">Home</Link>
+                    <Link to="/">Pagrindinis</Link>
                 </p>
                 <p>
-                    <Link to="/about">About</Link>
+                    <Link to="/about">Apie</Link>
                 </p>
                 <p>
-                    <Link to="/settings">Settings</Link>
+                    <Link to="/settings">Nustatymai</Link>
                 </p>
             </div>
         );

@@ -4,7 +4,7 @@ import Page from './Page';
 const SettingsPage = () => {
     return (
         <div>
-            <Page title="Settings" />
+            <Page title="Nustatymai" />
         </div>
     );
 };
