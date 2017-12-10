@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#317EFB">
     <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
@@ -11,9 +11,21 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
 
-    <meta name="mobile-web-app-capable" content="yes"> <!-- Tell the browser it's a PWA -->
-    <meta name="apple-mobile-web-app-capable" content="yes"> <!-- Tell iOS it's a PWA -->
-    <meta name="theme-color" content="#536878"> <!-- Make sure theme-color is defined -->
+    <!--<meta name="mobile-web-app-capable" content="yes">  Tell the browser it's a PWA -->
+    <!--<meta name="apple-mobile-web-app-capable" content="yes">  Tell iOS it's a PWA -->
+    <!--<meta name="theme-color" content="#536878">  Make sure theme-color is defined -->
+
+    <!--Add to Homescreen elements for Safari on iOS-->
+    <!--In your index.html, add the following to the bottom of the <head> element:-->
+    <!-- Add to home screen for Safari on iOS -->
+    <!--<meta name="apple-mobile-web-app-capable" content="yes">-->
+    <!--<meta name="apple-mobile-web-app-status-bar-style" content="black">-->
+    <!--<meta name="apple-mobile-web-app-title" content="Weather PWA">-->
+    <!--<link rel="apple-touch-icon" href="images/icons/icon-152x152.png">-->
+    <!--Tile Icon for Windows-->
+    <!--In your index.html, add the following to the bottom of the <head> element:-->
+    <!--<meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">-->
+    <!--<meta name="msapplication-TileColor" content="#2F3BA2">-->
 
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.

@@ -18,7 +18,7 @@ class Page extends React.Component<Props> {
                     <h2>{title}</h2>
                 </div>
                 <p className="App-intro">
-                    This is the {title} page.
+                    Jūs apsilankėte "{title}" puslapyje.
                 </p>
                 <p>
                     <Link to="/">Pagrindinis</Link>
