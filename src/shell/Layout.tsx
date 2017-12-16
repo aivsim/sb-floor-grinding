@@ -1,5 +1,5 @@
 import * as React from 'react';
-// import '../assets/css/main.css';
+import '../assets/scss/main.css';
 import Header from './Header';
 import Contact from './Contact';
 import Footer from './Footer';

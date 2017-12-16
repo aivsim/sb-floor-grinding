@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { Banner } from '../shell';
 
-import pic01 from '../images/pic01.jpg';
-import pic02 from '../images/pic02.jpg';
-import pic03 from '../images/pic03.jpg';
-import pic04 from '../images/pic04.jpg';
-import pic05 from '../images/pic05.jpg';
-import pic06 from '../images/pic06.jpg';
+import pic01 from '../assets/images/pic01.jpg';
+import pic02 from '../assets/images/pic02.jpg';
+import pic03 from '../assets/images/pic03.jpg';
+import pic04 from '../assets/images/pic04.jpg';
+import pic05 from '../assets/images/pic05.jpg';
+import pic06 from '../assets/images/pic06.jpg';
 
 class HomeIndex extends React.Component {
     render() {
