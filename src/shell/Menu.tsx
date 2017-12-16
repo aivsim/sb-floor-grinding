@@ -24,15 +24,8 @@ class Menu extends React.Component<OwnState> {
                             </Link>
                         </li>
                         <li>
-                            <Link
-                                onClick={onToggleMenu}
-                                className="button special fit"
-                                to="#contact"
-                                // to={{
-                                //     pathname: '/',
-                                //     hash: '#contact'
-                                // }}
-                            >
+                            {/* <a href="#one" className="button special fit">Susisiekime</a> */}
+                            <Link onClick={onToggleMenu} className="button special fit" to="/susisiekime">
                                 Susisiekime
                             </Link>
                         </li>

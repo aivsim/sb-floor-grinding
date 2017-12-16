@@ -10,14 +10,30 @@ interface OwnProps {
 
 interface OwnState {
     isMenuVisible: boolean;
+    loading: string;
 }
 
 class Layout extends React.Component<OwnProps, OwnState> {
+    private timeoutId: NodeJS.Timer | number;
+
     constructor(props: OwnProps) {
         super(props);
         this.state = {
             isMenuVisible: false,
+            loading: 'is-loading'
         };
+    }
+
+    componentDidMount () {
+        this.timeoutId = setTimeout(() => {
+            this.setState({loading: ''});
+        },                          100);
+    }
+
+    componentWillUnmount () {
+        if (this.timeoutId) {
+            clearTimeout(this.timeoutId as NodeJS.Timer);
+        }
     }
 
     handleToggleMenu = () => {
@@ -27,7 +43,7 @@ class Layout extends React.Component<OwnProps, OwnState> {
     render() {
         const { children } = this.props;
         return (
-            <div className={`body ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
+            <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
                 <div id="wrapper">
                     <Header onToggleMenu={this.handleToggleMenu} />
                     {children}

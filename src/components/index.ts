@@ -4,3 +4,4 @@ export { default as EquipmentPage } from './EquipmentPage';
 export { default as GalleryPage } from './GalleryPage';
 export { default as PricesPage } from './PricesPage';
 export { default as AboutPage } from './AboutPage';
+export { default as ContactsPage } from './ContactsPage';
