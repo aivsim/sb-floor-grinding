@@ -16,7 +16,7 @@ class AboutPage extends React.Component {
                 <section id="one">
                     <div className="inner">
                         <header className="major">
-                            <h1>Generic</h1>
+                            <h1>Susipažinkime</h1>
                         </header>
                         {/* <span className="image main"><img src={pic11} alt="" /></span> */}
                         <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>

@@ -9,14 +9,14 @@ class App extends React.Component {
   render() {
     return (
       <Layout>
-        <Switch>
-          <Route exact={true} path="/" component={HomePage} />
-          <Route path="/paslaugos" component={ServicesPage} />
-          <Route path="/iranga" component={EquipmentPage} />
-          <Route path="/galerija" component={GalleryPage} />
-          <Route path="/kainorastis" component={PricesPage} />
-          <Route path="/susipazinkime" component={AboutPage} />
-        </Switch>
+          <Switch>
+            <Route exact={true} path="/" component={HomePage} />
+            <Route path="/paslaugos" component={ServicesPage} />
+            <Route path="/iranga" component={EquipmentPage} />
+            <Route path="/galerija" component={GalleryPage} />
+            <Route path="/kainorastis" component={PricesPage} />
+            <Route path="/susipazinkime" component={AboutPage} />
+          </Switch>
       </Layout>
     );
   }

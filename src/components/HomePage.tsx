@@ -72,7 +72,6 @@ class HomeIndex extends React.Component {
                                 <li>
                                     <Link
                                         to="/susipazinkime"
-                                        onClick={() => window.scrollTo(0, 0)}
                                         className="button next"
                                     >
                                         Plačiau
