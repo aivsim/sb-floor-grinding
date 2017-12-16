@@ -10,7 +10,6 @@ interface OwnProps {
 
 interface OwnState {
     isMenuVisible: boolean;
-    // loading: string;
 }
 
 class Layout extends React.Component<OwnProps, OwnState> {
@@ -18,7 +17,6 @@ class Layout extends React.Component<OwnProps, OwnState> {
         super(props);
         this.state = {
             isMenuVisible: false,
-            // loading: 'is-loading'
         };
     }
 

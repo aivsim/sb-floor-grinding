@@ -6,20 +6,20 @@ const Contact = () => (
             <section>
                 <form method="post" action="#">
                     <div className="field half first">
-                        <label htmlFor="name">Name</label>
+                        <label htmlFor="name">Vardas</label>
                         <input type="text" name="name" id="name" />
                     </div>
                     <div className="field half">
-                        <label htmlFor="email">Email</label>
+                        <label htmlFor="email">El. paštas</label>
                         <input type="text" name="email" id="email" />
                     </div>
                     <div className="field">
-                        <label htmlFor="message">Message</label>
+                        <label htmlFor="message">Žinutė</label>
                         <textarea name="message" id="message" rows={6}/>
                     </div>
                     <ul className="actions">
-                        <li><input type="submit" value="Send Message" className="special" /></li>
-                        <li><input type="reset" value="Clear" /></li>
+                        <li><input type="submit" value="Išsiųsti žinutę" className="special" /></li>
+                        <li><input type="reset" value="Išvalyti" /></li>
                     </ul>
                 </form>
             </section>
@@ -27,24 +27,26 @@ const Contact = () => (
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"/>
-                        <h3>Email</h3>
-                        <a href="#">information@untitled.tld</a>
+                        <h3>El. paštas</h3>
+                        <a href="mailto:roberrtas@gmail.com?subject=Noriu%20pasiteirauti%20">
+                            roberrtas@gmail.com
+                        </a>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-phone"/>
-                        <h3>Phone</h3>
-                        <span>(000) 000-0000 x12387</span>
+                        <h3>Mob. tel.</h3>
+                        <span>+ 370 638 66 704</span>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"/>
-                        <h3>Address</h3>
-                        <span>1234 Somewhere Road #5432<br />
-                        Nashville, TN 00000<br />
-                        United States of America</span>
+                        <h3>Adresas</h3>
+                        <span>Ramioji g. 1<br />
+                        41168, Biržai<br />
+                        Lietuva</span>
                     </div>
                 </section>
             </section>

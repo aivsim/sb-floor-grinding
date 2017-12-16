@@ -12,17 +12,33 @@ class Menu extends React.Component<OwnState> {
             <nav id="menu">
                 <div className="inner">
                     <ul className="links">
-                        <li><Link onClick={onToggleMenu} to="/">Home</Link></li>
-                        <li><Link onClick={onToggleMenu} to="/landing">Landing</Link></li>
-                        <li><Link onClick={onToggleMenu} to="/generic">Generic</Link></li>
-                        <li><Link onClick={onToggleMenu} to="/elements">Elements</Link></li>
+                        <li><Link onClick={onToggleMenu} to="/">Pagrindinis</Link></li>
+                        <li><Link onClick={onToggleMenu} to="/paslaugos">Paslaugos</Link></li>
+                        <li><Link onClick={onToggleMenu} to="/galerija">Galerija</Link></li>
+                        <li><Link onClick={onToggleMenu} to="/kainorastis">Kainoraštis</Link></li>
                     </ul>
                     <ul className="actions vertical">
-                        <li><a href="#" className="button special fit">Get Started</a></li>
-                        <li><a href="#" className="button fit">Log In</a></li>
+                        <li>
+                            <Link onClick={onToggleMenu} className="button fit" to="/susipazinkime">
+                                Susipažinkime
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                onClick={onToggleMenu}
+                                className="button special fit"
+                                to="#contact"
+                                // to={{
+                                //     pathname: '/',
+                                //     hash: '#contact'
+                                // }}
+                            >
+                                Susisiekime
+                            </Link>
+                        </li>
                     </ul>
                 </div>
-                <a className="close" onClick={onToggleMenu} href="#">Close</a>
+                <a className="close" onClick={onToggleMenu} href="#">Uždaryti</a>
             </nav>
         );
     }
