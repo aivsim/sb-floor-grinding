@@ -28,28 +28,28 @@ class HomeIndex extends React.Component {
                         <article style={{ backgroundImage: `url(${pic01})` }}>
                             <header className="major">
                                 <h3>Paslaugos</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <p>Suteikiamų darbų rūšys ir tipai</p>
                             </header>
                             <Link to="/paslaugos" className="link primary" />
                         </article>
                         <article style={{ backgroundImage: `url(${pic02})` }}>
                             <header className="major">
                                 <h3>Įranga</h3>
-                                <p>feugiat amet tempus</p>
+                                <p>Darbų atlikimo metu naudojama įranga, technologijos ir metodikos</p>
                             </header>
                             <Link to="/iranga" className="link primary" />
                         </article>
                         <article style={{ backgroundImage: `url(${pic03})` }}>
                             <header className="major">
                                 <h3>Galerija</h3>
-                                <p>Lorem etiam nullam</p>
+                                <p>Darbų pavyzdžiai, vaizdai prieš ir po </p>
                             </header>
                             <Link to="/galerija" className="link primary" />
                         </article>
                         <article style={{ backgroundImage: `url(${pic04})` }}>
                             <header className="major">
                                 <h3>Kainoraštis</h3>
-                                <p>Nisl sed aliquam</p>
+                                <p>Suteikiamų paslaugų preliminarios kainos</p>
                             </header>
                             <Link
                                 to="/kainorastis"
@@ -65,9 +65,9 @@ class HomeIndex extends React.Component {
                                 <h2>Susipažinkime</h2>
                             </header>
                             <p>
-                                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
-                                Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem.
-                                In efficitur ligula tate urna.</p>
+                                Roberto trumpas aprašymas apie save, kuris detaliau bus pateiktas "Plačiau" 
+                                esančiame puslapyje.
+                            </p>
                             <ul className="actions">
                                 <li>
                                     <Link

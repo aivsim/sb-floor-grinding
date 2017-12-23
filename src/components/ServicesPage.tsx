@@ -2,9 +2,9 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
-import pic08 from '../assets/images/pic08.jpg';
-import pic09 from '../assets/images/pic09.jpg';
-import pic10 from '../assets/images/pic10.jpg';
+import pic08 from '../assets/images/pic01.jpg';
+import pic09 from '../assets/images/pic01.jpg';
+import pic10 from '../assets/images/pic01.jpg';
 
 class ServicesPage extends React.Component {
     render() {
@@ -21,8 +21,9 @@ class ServicesPage extends React.Component {
                             <h1>Paslaugos</h1>
                         </header>
                         <div className="content">
-                            <p>Lorem ipsum dolor sit amet nullam consequat<br />
-                                sed veroeros. tempus adipiscing nulla.</p>
+                            <p>
+                                Suteikiamų darbų rūšys ir tipai
+                            </p>
                         </div>
                     </div>
                 </section>

@@ -2,9 +2,9 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
-import pic08 from '../assets/images/pic08.jpg';
-import pic09 from '../assets/images/pic09.jpg';
-import pic10 from '../assets/images/pic10.jpg';
+import pic08 from '../assets/images/pic03.jpg';
+import pic09 from '../assets/images/pic03.jpg';
+import pic10 from '../assets/images/pic03.jpg';
 
 class GalleryPage extends React.Component {
     render() {
@@ -21,8 +21,7 @@ class GalleryPage extends React.Component {
                             <h1>Galerija</h1>
                         </header>
                         <div className="content">
-                            <p>Lorem ipsum dolor sit amet nullam consequat<br />
-                                sed veroeros. tempus adipiscing nulla.</p>
+                            <p>Darbų pavyzdžiai, vaizdai prieš ir po </p>
                         </div>
                     </div>
                 </section>

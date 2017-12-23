@@ -18,7 +18,7 @@ const Contact = () => (
                         <textarea name="message" id="message" rows={6}/>
                     </div>
                     <ul className="actions">
-                        <li><input type="submit" value="Išsiųsti žinutę" className="special" /></li>
+                        <li><input type="submit" value="Išsiųsti žinutę" className="special" disabled={true} /></li>
                         <li><input type="reset" value="Išvalyti" /></li>
                     </ul>
                 </form>
