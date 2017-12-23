@@ -22,4 +22,4 @@ yarn-error.log*
 
 /html5up-forty
 /gatsby-starter-forty-master
-src/**/*.css
+# src/**/*.css
