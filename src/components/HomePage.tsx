@@ -12,8 +12,8 @@ import pic04 from '../assets/images/pic04.jpg';
 
 class HomeIndex extends React.Component {
     render() {
-        const siteTitle = 'Grindu slifavimas';
-        const siteDescription = 'Grindu slifavimas aprašymas';
+        const siteTitle = 'Roberto grindų šlifavimas';
+        const siteDescription = 'Grindų šlifavimas aprašymas';
         return (
             <div>
                 <Helmet>
