@@ -28,8 +28,8 @@ const Contact = () => (
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"/>
                         <h3>El. paštas</h3>
-                        <a href="mailto:roberrtas@gmail.com?subject=Noriu%20pasiteirauti%20">
-                            roberrtas@gmail.com
+                        <a href="mailto:slifuojugrindis@gmail.com?subject=Noriu%20pasiteirauti%20">
+                            slifuojugrindis@gmail.com
                         </a>
                     </div>
                 </section>
@@ -37,7 +37,7 @@ const Contact = () => (
                     <div className="contact-method">
                         <span className="icon alt fa-phone"/>
                         <h3>Mob. tel.</h3>
-                        <span>+ 370 638 66 704</span>
+                        <span>+ 370 610 87 516</span>
                     </div>
                 </section>
                 <section>

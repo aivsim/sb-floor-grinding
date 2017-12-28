@@ -15,7 +15,7 @@ class Header extends React.Component<OwnProps> {
         const { onToggleMenu } = this.props;
         return (
             <header id="header" className="alt">
-                <Link to="/" className="logo"><span>Roberto</span> <strong>Grindų šlifavimas</strong></Link>
+                <Link to="/" className="logo"><strong>Šlifuoju grindis</strong></Link>
                 <nav>
                     <a className="menu-link" onClick={onToggleMenu} href="#">Meniu</a>
                 </nav>

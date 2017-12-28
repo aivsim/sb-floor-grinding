@@ -22,6 +22,13 @@ class GalleryPage extends React.Component {
                         </header>
                         <div className="content">
                             <p>Darbų pavyzdžiai, vaizdai prieš ir po </p>
+                            <a 
+                                href="https://www.instagram.com/slifuojugrindis/"
+                                target="_blank"
+                                className="icon alt fa-instagram"
+                            >
+                            <span className="label">Instagram</span>
+                            </a>
                         </div>
                     </div>
                 </section>
