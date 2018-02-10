@@ -1,10 +1,10 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
-import pic08 from '../assets/images/pic01.jpg';
-import pic09 from '../assets/images/pic01.jpg';
-import pic10 from '../assets/images/pic01.jpg';
+// import pic08 from '../assets/images/pic01.jpg';
+// import pic09 from '../assets/images/pic01.jpg';
+// import pic10 from '../assets/images/pic01.jpg';
 
 class ServicesPage extends React.Component {
     render() {
@@ -31,20 +31,15 @@ class ServicesPage extends React.Component {
                 <div id="main">
                     <section id="one">
                         <div className="inner">
-                            <header className="major">
+                            {/* <header className="major">
                                 <h2>Sed amet aliquam</h2>
-                            </header>
+                            </header> */}
                             <p>
-                                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                                magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.
-                                Maecenas massa vel lacinia pellentesque lorem ipsum dolor.
-                                Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
-                                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed
-                                nunc rhoncus condimentum sem. In efficitur ligula tate urna.
+                                Informacija ruošiama
                             </p>
                         </div>
                     </section>
-                    <section id="two" className="spotlights">
+                    {/* <section id="two" className="spotlights">
                         <section>
                             <Link to="/generic" className="image">
                                 <img src={pic08} alt="" />
@@ -108,7 +103,7 @@ class ServicesPage extends React.Component {
                                 </div>
                             </div>
                         </section>
-                    </section>
+                    </section> */}
                 </div>
 
             </div>

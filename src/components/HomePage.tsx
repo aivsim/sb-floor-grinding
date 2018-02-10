@@ -24,7 +24,7 @@ class HomeIndex extends React.Component {
                 <Banner />
 
                 <div id="main">
-                    <section id="one" className="tiles">
+                    <section id="informacija" className="tiles">
                         <article style={{ backgroundImage: `url(${pic01})` }}>
                             <header className="major">
                                 <h3>Paslaugos</h3>
@@ -59,15 +59,15 @@ class HomeIndex extends React.Component {
                         </article>
                     </section>
 
-                    <section id="two">
+                    <section id="susipazinkime">
                         <div className="inner">
                             <header className="major">
                                 <h2>Susipažinkime</h2>
                             </header>
-                            <p>
+                            {/* <p>
                                 Roberto trumpas aprašymas apie save, kuris detaliau bus pateiktas "Plačiau" 
                                 esančiame puslapyje.
-                            </p>
+                            </p> */}
                             <ul className="actions">
                                 <li>
                                     <Link
@@ -81,7 +81,7 @@ class HomeIndex extends React.Component {
                         </div>
                     </section>
 
-                    {/* <section id="three" className="tiles">
+                    {/* <section id="straipsniai" className="tiles">
                         <article style={{ backgroundImage: `url(${pic05})` }}>
                             <header className="major">
                                 <h3>Darbo aplinkos paruošimas</h3>

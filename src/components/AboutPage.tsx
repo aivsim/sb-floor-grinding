@@ -19,9 +19,7 @@ class AboutPage extends React.Component {
                             <h1>Susipažinkime</h1>
                         </header>
                         {/* <span className="image main"><img src={pic11} alt="" /></span> */}
-                        <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                        <p>Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                        <p>Informacija ruošiama</p>
                     </div>
                 </section>
             </div>

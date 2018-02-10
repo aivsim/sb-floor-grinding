@@ -13,7 +13,7 @@ const Banner = () => (
                     pritaikau naujausias technoligijas, darbo metodus bei sprendimus.
                 </p>
                 <ul className="actions">
-                    <li><a href="#one" className="button next scrolly">Daugiau</a></li>
+                    <li><a href="#informacija" className="button next scrolly">Daugiau</a></li>
                 </ul>
             </div>
         </div>

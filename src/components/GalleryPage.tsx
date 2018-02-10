@@ -1,10 +1,10 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
-import pic08 from '../assets/images/pic03.jpg';
-import pic09 from '../assets/images/pic03.jpg';
-import pic10 from '../assets/images/pic03.jpg';
+// import pic08 from '../assets/images/pic03.jpg';
+// import pic09 from '../assets/images/pic03.jpg';
+// import pic10 from '../assets/images/pic03.jpg';
 
 class GalleryPage extends React.Component {
     render() {
@@ -22,13 +22,6 @@ class GalleryPage extends React.Component {
                         </header>
                         <div className="content">
                             <p>Darbų pavyzdžiai, vaizdai prieš ir po </p>
-                            <a 
-                                href="https://www.instagram.com/slifuojugrindis/"
-                                target="_blank"
-                                className="icon alt fa-instagram"
-                            >
-                            <span className="label">Instagram</span>
-                            </a>
                         </div>
                     </div>
                 </section>
@@ -36,20 +29,21 @@ class GalleryPage extends React.Component {
                 <div id="main">
                     <section id="one">
                         <div className="inner">
-                            <header className="major">
+                            {/* <header className="major">
                                 <h2>Sed amet aliquam</h2>
-                            </header>
+                            </header> */}
                             <p>
-                                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                                magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.
-                                Maecenas massa vel lacinia pellentesque lorem ipsum dolor.
-                                Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
-                                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed
-                                nunc rhoncus condimentum sem. In efficitur ligula tate urna.
+                                Visas nuotraukas bus galima peržiūrėti mano Instagram <a
+                                    href="https://www.instagram.com/slifuojugrindis/"
+                                    target="_blank"
+                                    className="icon alt fa-instagram"
+                                >
+                                    <span className="label">Instagram</span>
+                                </a> paskyroje.
                             </p>
                         </div>
                     </section>
-                    <section id="two" className="spotlights">
+                    {/* <section id="two" className="spotlights">
                         <section>
                             <Link to="/generic" className="image">
                                 <img src={pic08} alt="" />
@@ -113,7 +107,7 @@ class GalleryPage extends React.Component {
                                 </div>
                             </div>
                         </section>
-                    </section>
+                    </section> */}
                 </div>
 
             </div>
