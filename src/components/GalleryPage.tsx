@@ -1,6 +1,7 @@
 import * as React from 'react';
 // import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+// import Instafeed from 'react-instafeed';
 
 // import pic08 from '../assets/images/pic03.jpg';
 // import pic09 from '../assets/images/pic03.jpg';
@@ -18,14 +19,20 @@ class GalleryPage extends React.Component {
                 <section id="banner" className="style2">
                     <div className="inner">
                         <header className="major">
-                            <h1>Galerija</h1>
+                            <h1>Galerija <a
+                                    href="https://www.instagram.com/slifuojugrindis/"
+                                    target="_blank"
+                                    className="icon alt fa-instagram"
+                                >
+                                    <span className="label">Instagram</span>
+                                </a>
+                            </h1>
                         </header>
                         <div className="content">
                             <p>Darbų pavyzdžiai, vaizdai prieš ir po </p>
                         </div>
                     </div>
                 </section>
-
                 <div id="main">
                     <section id="one">
                         <div className="inner">
@@ -33,83 +40,32 @@ class GalleryPage extends React.Component {
                                 <h2>Sed amet aliquam</h2>
                             </header> */}
                             <p>
-                                Visas nuotraukas bus galima peržiūrėti mano Instagram <a
+                                Nuoroda į nuotraukų albumą: <a
                                     href="https://www.instagram.com/slifuojugrindis/"
                                     target="_blank"
                                     className="icon alt fa-instagram"
                                 >
                                     <span className="label">Instagram</span>
-                                </a> paskyroje.
+                                </a>
                             </p>
+
+                            {/* 
+                            <div id={instafeedTarget}>
+                                <Instafeed
+                                    limit='5'
+                                    ref='instafeed'
+                                    resolution='standard_resolution'
+                                    sortBy='most-recent'
+                                    target='instafeed'
+                                    template='<div class="box alt"><div class="row 50% uniform"><div class="4u"><span class="image fit"><img src="{{image}}" /></span></div></div></div>'
+                                    userId='6815772479'
+                                    clientId='a0c7165f900049909bacb2974ab2754d'
+                                    accessToken='6815772479.1677ed0.69e364ef934d47f5a25ed7130738b5fa'
+                                />
+                            </div> */}
                         </div>
                     </section>
-                    {/* <section id="two" className="spotlights">
-                        <section>
-                            <Link to="/generic" className="image">
-                                <img src={pic08} alt="" />
-                            </Link>
-                            <div className="content">
-                                <div className="inner">
-                                    <header className="major">
-                                        <h3>Orci maecenas</h3>
-                                    </header>
-                                    <p>
-                                        Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna
-                                        sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.
-                                        Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor.
-                                        Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.
-                                    </p>
-                                    <ul className="actions">
-                                        <li><Link to="/generic" className="button">Learn more</Link></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <Link to="/generic" className="image">
-                                <img src={pic09} alt="" />
-                            </Link>
-                            <div className="content">
-                                <div className="inner">
-                                    <header className="major">
-                                        <h3>Rhoncus magna</h3>
-                                    </header>
-                                    <p>
-                                        Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed
-                                        nunc rhoncus condimentum sem. In efficitur ligula tate urna.
-                                        Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor.
-                                        Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.
-                                    </p>
-                                    <ul className="actions">
-                                        <li><Link to="/generic" className="button">Learn more</Link></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <Link to="/generic" className="image">
-                                <img src={pic10} alt="" />
-                            </Link>
-                            <div className="content">
-                                <div className="inner">
-                                    <header className="major">
-                                        <h3>Sed nunc ligula</h3>
-                                    </header>
-                                    <p>
-                                        Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna
-                                        sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.
-                                        Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor.
-                                        Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.
-                                    </p>
-                                    <ul className="actions">
-                                        <li><Link to="/generic" className="button">Learn more</Link></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </section>
-                    </section> */}
                 </div>
-
             </div>
         );
     }

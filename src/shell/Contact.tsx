@@ -44,9 +44,7 @@ const Contact = () => (
                     <div className="contact-method">
                         <span className="icon alt fa-home"/>
                         <h3>Adresas</h3>
-                        <span>Ramioji g. 1<br />
-                        41168, Biržai<br />
-                        Lietuva</span>
+                        <span>Biržai, Lietuva</span>
                     </div>
                 </section>
             </section>

@@ -18,11 +18,11 @@ class Menu extends React.Component<OwnState> {
                         <li><Link onClick={onToggleMenu} to="/kainorastis">Kainoraštis</Link></li>
                     </ul>
                     <ul className="actions vertical">
-                        <li>
+                        {/* <li>
                             <Link onClick={onToggleMenu} className="button fit" to="/susipazinkime">
                                 Susipažinkime
                             </Link>
-                        </li>
+                        </li> */}
                         <li>
                             {/* <a href="#one" className="button special fit">Susisiekime</a> */}
                             <Link onClick={onToggleMenu} className="button special fit" to="/susisiekime">
