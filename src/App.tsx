@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { HomePage, ServicesPage, IrangaPage, GalleryPage, PricesPage, AboutPage, ContactsPage } from './components';
 import { Layout } from './shell';
+import withTracker from './withTracker';
 
 import './App.css';
 
@@ -10,13 +11,13 @@ class App extends React.Component {
     return (
       <Layout>
           <Switch>
-            <Route exact={true} path="/" component={HomePage} />
-            <Route path="/paslaugos" component={ServicesPage} />
-            <Route path="/iranga" component={IrangaPage}  />
-            <Route path="/galerija" component={GalleryPage} />
-            <Route path="/kainorastis" component={PricesPage} />
-            <Route path="/susipazinkime" component={AboutPage} />
-            <Route path="/susisiekime" component={ContactsPage} />
+            <Route exact={true} path="/" component={withTracker(HomePage, { /* additional attributes */ } )}/>
+            <Route path="/paslaugos" component={withTracker(ServicesPage, { /* additional attributes */ } )} />
+            <Route path="/iranga" component={withTracker(IrangaPage, { /* additional attributes */ } )} />
+            <Route path="/galerija" component={withTracker(GalleryPage, { /* additional attributes */ } )} />
+            <Route path="/kainorastis" component={withTracker(PricesPage, { /* additional attributes */ } )} />
+            <Route path="/susipazinkime" component={withTracker(AboutPage, { /* additional attributes */ } )} />
+            <Route path="/susisiekime" component={withTracker(ContactsPage, { /* additional attributes */ } )} />
           </Switch>
       </Layout>
     );

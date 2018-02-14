@@ -12,7 +12,7 @@ class IrangaPage extends React.Component {
         return (
             <div>
                 <Helmet>
-                    <title>^lifuoju grindis - Įranga</title>
+                    <title>Šlifuoju grindis - Įranga</title>
                     <meta name="description" content="Įrangos aprašymas" />
                 </Helmet>
 
