@@ -21,6 +21,7 @@ const Contact = () => (
                         <li><input type="submit" value="Išsiųsti žinutę" className="special" /></li>
                         <li><input type="reset" value="Išvalyti" /></li>
                         <input type="hidden" name="_language" value="lt" />
+                        <input type="hidden" name="_next" value="//slifuojugrindis.lt/aciu" /> 
                     </ul>
                 </form>
             </section>

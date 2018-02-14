@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { HomePage, ServicesPage, IrangaPage, GalleryPage, PricesPage, AboutPage, ContactsPage } from './components';
+import { HomePage, ServicesPage, IrangaPage, GalleryPage, PricesPage, AboutPage, ContactsPage, AciuPage } from './components';
 import { Layout } from './shell';
 import withTracker from './withTracker';
 
@@ -18,6 +18,8 @@ class App extends React.Component {
             <Route path="/kainorastis" component={withTracker(PricesPage, { /* additional attributes */ } )} />
             <Route path="/susipazinkime" component={withTracker(AboutPage, { /* additional attributes */ } )} />
             <Route path="/susisiekime" component={withTracker(ContactsPage, { /* additional attributes */ } )} />
+            <Route path="/aciu" component={withTracker(AciuPage, { /* additional attributes */ } )} /> 
+            
           </Switch>
       </Layout>
     );

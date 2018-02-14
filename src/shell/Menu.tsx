@@ -13,7 +13,7 @@ class Menu extends React.Component<OwnState> {
                 <div className="inner">
                     <ul className="links">
                         <li><Link onClick={onToggleMenu} to="/">Pagrindinis</Link></li>
-                        <li><Link onClick={onToggleMenu} to="/paslaugos">Paslaugos</Link></li>
+                        <li><Link onClick={onToggleMenu} to="/iranga">Įranga</Link></li>
                         <li><Link onClick={onToggleMenu} to="/galerija">Galerija</Link></li>
                         <li><Link onClick={onToggleMenu} to="/kainorastis">Kainoraštis</Link></li>
                     </ul>
