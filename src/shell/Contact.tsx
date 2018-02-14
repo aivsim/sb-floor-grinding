@@ -4,22 +4,23 @@ const Contact = () => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form method="post" action="#">
+                <form id="gform" action="https://formspree.io/slifuojugrindis@gmail.com" method="POST">
                     <div className="field half first">
-                        <label htmlFor="name">Vardas</label>
+                        <label htmlFor="name">Jūsų vardas</label>
                         <input type="text" name="name" id="name" />
                     </div>
                     <div className="field half">
-                        <label htmlFor="email">El. paštas</label>
-                        <input type="text" name="email" id="email" />
+                        <label htmlFor="name">Jūsų el. paštas</label>
+                        <input type="email" name="email" />
                     </div>
                     <div className="field">
-                        <label htmlFor="message">Žinutė</label>
-                        <textarea name="message" id="message" rows={6}/>
+                        <label htmlFor="message">Jūsų žinutė</label>
+                        <textarea name="message" rows={6}></textarea>
                     </div>
                     <ul className="actions">
-                        <li><input type="submit" value="Išsiųsti žinutę" className="special" disabled={true} /></li>
+                        <li><input type="submit" value="Išsiųsti žinutę" className="special" /></li>
                         <li><input type="reset" value="Išvalyti" /></li>
+                        <input type="hidden" name="_language" value="lt" />
                     </ul>
                 </form>
             </section>

@@ -7,12 +7,12 @@ import pic21 from '../assets/images/irenginiai/21.jpg';
 import pic31 from '../assets/images/irenginiai/31.jpg';
 import pic41 from '../assets/images/irenginiai/41.jpg';
 
-class EquipmentPage extends React.Component {
+class IrangaPage extends React.Component {
     render() {
         return (
             <div>
                 <Helmet>
-                    <title>Įranga</title>
+                    <title>^lifuoju grindis - Įranga</title>
                     <meta name="description" content="Įrangos aprašymas" />
                 </Helmet>
 
@@ -27,17 +27,7 @@ class EquipmentPage extends React.Component {
                     </div>
                 </section>
 
-                <div id="main">
-                    {/* <section id="one">
-                        <div className="inner">
-                            <header className="major">
-                                <h2>Sed amet aliquam</h2>
-                            </header>
-                            <p>
-                                Informacija ruošiama
-                            </p>
-                        </div>
-                    </section> */}
+                <div id="main">                    
                     <section id="two" className="spotlights">
                         <section>
                             <Link to="/generic" className="image">
@@ -123,4 +113,4 @@ class EquipmentPage extends React.Component {
     }
 }
 
-export default EquipmentPage;
+export default IrangaPage;

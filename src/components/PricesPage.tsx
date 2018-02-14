@@ -9,7 +9,7 @@ class PricesPage extends React.Component {
         return (
             <div>
                 <Helmet>
-                    <title>Kainoraštis</title>
+                    <title>Šlifuoju grindis - Kainoraštis</title>
                     <meta name="description" content="Kainoraščio aprašymas" />
                 </Helmet>
 

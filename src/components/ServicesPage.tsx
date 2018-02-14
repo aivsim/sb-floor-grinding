@@ -11,7 +11,7 @@ class ServicesPage extends React.Component {
         return (
             <div>
                 <Helmet>
-                    <title>Paslaugos</title>
+                    <title>Šlifuoju grindis - Paslaugos</title>
                     <meta name="description" content="Paslaugų aprašymas" />
                 </Helmet>
 

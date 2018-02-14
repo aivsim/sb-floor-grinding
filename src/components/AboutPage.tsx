@@ -8,7 +8,7 @@ class AboutPage extends React.Component {
         return (
             <div>
             <Helmet>
-                <title>Susipažinkime</title>
+                <title>Šlifuoju grindis - Susipažinkime</title>
                 <meta name="description" content="Susipažinkime aprašymas" />
             </Helmet>
 

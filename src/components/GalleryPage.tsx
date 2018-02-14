@@ -12,7 +12,7 @@ class GalleryPage extends React.Component {
         return (
             <div>
                 <Helmet>
-                    <title>Galerija</title>
+                    <title>Šlifuoju grindis - Galerija</title>
                     <meta name="description" content="Galerijos aprašymas" />
                 </Helmet>
 
